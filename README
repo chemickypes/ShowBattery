@@ -1,0 +1,17 @@
+ ShowBattery v.0.9
+
+This is the source of the first SB release.
+You must compile it with 
+	gcc -Wall src/*.c -o showbattery `pkg-config --cflags gtk+-2.0`  `pkg-config --cflags glib-2.0` -lnotify
+
+but, before it, in the source code you must set the path you prefer.
+Now, file that we call are in a directory ~/.showbattery , so you must create it and copy directory "icone" in ~/.showbattery. "icone" is in the src directory.
+
+In the code we call file "info" too. It's most important because if you set ~/.showbattery , this file is used to remember your home.
+However, you must set path of this file, and, to the start you must create it.
+
+Now you can compile the code.
+
+If you want, you can copy compiled file in /usr/bin/ to allow the direct execution, how i did.
+
+enjoy it.
