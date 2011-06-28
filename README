@@ -10,6 +10,9 @@ Now, file that we call are in a directory ~/.showbattery , so you must create it
 In the code we call file "info" too. It's most important because if you set ~/.showbattery , this file is used to remember your home.
 However, you must set path of this file, and, to the start you must create it.
 
+Same way to "genlivbat" script. It uses ~/.showbattery , but, you must check path of this script.
+You also can modify the script as you like.
+
 Now you can compile the code.
 
 If you want, you can copy compiled file in /usr/bin/ to allow the direct execution, how i did.
