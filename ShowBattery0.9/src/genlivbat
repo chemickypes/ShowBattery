@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#script per prendere genera un file con output
+
+#da modificare con il reale path 
+
+acpi > livello_batteria
+
+mv livello_batteria ~/.showbattery
+
+
+
+
